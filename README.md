@@ -55,10 +55,11 @@ Follow these steps to run the project locally:
 git clone https://github.com/Udaypc/personality-development.git
 
 # Navigate to project directory
-cd personality-development-platform
+cd personality-development
 
 # Install dependencies
 npm install
 
 # Start the application
 npm start
+
