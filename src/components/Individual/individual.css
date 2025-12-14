@@ -1,0 +1,280 @@
+
+.video{
+    background-image: url(https://www.betterup.com/hubfs/d2c%20gradient%20-%20compressed.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+    text-align: center;
+}
+.top-text-container{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;   
+}
+.top-text-container h1{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+.top-text-container h2{
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    font-family: Bree serif;
+}
+.top-text-container p{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 70%;
+}
+.top-text-container button{
+    background-color:#fff;
+    border: none;
+    padding: 15px 40px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-top: 25px;
+    color: #000;
+    font-weight: 650;
+
+}
+.top-text-container button:hover{
+    background-color: #cb170a;
+}
+.individual-second-container{
+    display: flex;
+    margin-top: 50px;
+}
+
+.individual-second-text-container{
+    width: 30%;
+    margin-left: 50px;
+}
+.individual-second-text-container h1{
+    font-family: Ivar Headline, Times New Roman, serif;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: .01em;
+    line-height: 1.1;
+    margin-bottom: 24px;
+    margin-top: 0;
+}
+.individual-second-text-container p{
+    font-family: Sohne, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    margin-top: 0;
+}
+.individual-second-text-container button{
+    background-color:#ee1967;
+    border: none;
+    padding: 15px 40px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 10px;
+
+}
+.individual-second-text-container button:hover{
+    background-color:#000 ;
+}
+.carousel-container{
+    width: 50%;
+    margin-left: 130px;
+}
+.crousel-item{
+    background-image: url('https://9253440.fs1.hubspotusercontent-na1.net/hubfs/9253440/Career%20Coaching-1.png');
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.crousel-item h1{
+    font-family: Ivar Headline, Times New Roman, serif;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: .01em;
+    line-height: 1.1;
+    margin-bottom: 24px;
+    margin-top: 10%;
+    color: #fff;
+    margin-left: 15%;
+}
+.crousel-item p{
+    font-family: Sohne, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #fff;
+    width: 50%;
+    margin-left: 15%;
+}
+.second{
+    background-image: url('https://9253440.fs1.hubspotusercontent-na1.net/hubfs/9253440/Wellness%20Coaching-1.png');
+}
+.third{
+    background-image: url('https://9253440.fs1.hubspotusercontent-na1.net/hubfs/9253440/Communication%20Coaching%20(1).png');
+}
+.individual-third-container{
+    background-image: url('https://www.betterup.com/hubfs/Explore%20the%20Platform%20%282%29.png');
+    height: 100%;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 40px 150px;
+    padding-bottom: 20px;
+}
+.individual-third-container h1{
+    font-family: Ivar Headline, Times New Roman, serif;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: .01em;
+    line-height: 1.1;
+    color: #fff;
+    width: 30%;
+}
+.individual-third-container p{
+    font-family: Sohne, Arial, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    width: 45%;
+}
+.individual-third-container li{
+    font-family: Sohne, Arial, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    width: 45%;
+}
+.individual-fourth-container{
+    display: flex;
+}
+.individual-fourth-container img{
+    width: 50%;
+
+}
+.individual-fourth-text-container{
+    width: 40%;
+    margin-left: 50px;
+}
+.individual-fourth-text-container h1{
+    font-family: Ivar Headline, Times New Roman, serif;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: .01em;
+    line-height: 1.1;
+    margin-bottom: 24px;
+    margin-top: 0;
+}
+.individual-fourth-text-container h2{
+    font-family:Sohne, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.individual-fourth-text-container p{
+    font-family: Sohne, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    margin-top: 0;
+}
+
+@media  screen and (max-width: 768px) {
+    .individual-second-container{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .individual-second-text-container{
+        width: 100%;
+        margin-left: 0;
+    }
+    .carousel-container{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .individual-third-container{
+        padding: 30px;
+        padding-right: 30px;
+    }
+    .individual-third-container h1 {
+        width: 100%;
+        font-size: 25px;
+    }
+    .individual-third-container p {
+        width: 100%;
+        font-size: 18px;
+    }
+    .individual-third-container li{
+        width: 100%;
+        font-size: 15px;
+    }
+    .individual-fourth-container{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .individual-fourth-container img{
+        width: 100%;
+    }
+    .individual-fourth-text-container{
+        width: 100%;
+        margin-left: 0;
+    }    
+}
+@media screen and (max-width: 480px) {
+    .top-text-container h2{
+        font-size: 40px;
+    }
+    .top-text-container p{
+        font-size: 18px;
+        width: 90%;
+    }
+    .individual-second-text-container h1{
+        font-size: 28px;
+    }
+    .individual-second-text-container p{
+        font-size: 16px;
+    }
+    .individual-second-text-container button{
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .crousel-item h1{
+        font-size: 24px;
+        margin-top: 20%;
+    }
+    .crousel-item p{
+        font-size: 16px;
+        width: 80%;
+    }
+    .individual-third-container h1 {
+        font-size: 28px;
+        width: 100%;
+    }
+    .individual-third-container p {
+        font-size: 16px;
+        width: 100%;
+    }
+    
+}

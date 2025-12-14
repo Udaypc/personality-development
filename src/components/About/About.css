@@ -1,0 +1,108 @@
+.about-first-container {
+  background-image: url('https://www.betterup.com/hubfs/Global%20Hero/HS_Mom_1680x1063.jpg');
+  background-size: cover;
+  height: 110vh;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.about-first-h1{
+    color:#000;
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px #fff;
+    width: 50%;
+    text-align: left;
+    margin-top: 10%;
+    font-family: Bree serif;
+}
+.about-second-container{
+    display: flex;
+}
+.about-second-p1{
+    font-size: 2rem;
+    font-weight: bold;
+    width: 20%;
+    margin: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-family:sans-serif;
+    color: #000;
+}
+.about-second-p2{
+    font-size: 20px;
+    width: 30%;
+    margin: 5%;
+    margin-top: 5%;
+    font-family: Bree serif;
+    margin-left: 10%;
+}
+.about-third-container{
+    display: flex;
+
+}
+.about-third-container-img{
+    width: 40%;
+    height: 40%;
+    margin-left: 2%;
+}
+.hr{
+    margin-top: 30%;
+    margin-left: 3%;
+}
+.about-third-h1{
+    font-size: 15px;
+    font-family: Roboto;
+    color: #000;
+    margin-left: 3%;
+}
+.about-third-container-text{
+    width: 40%;
+    margin: 2%;
+    font-family: Bree serif;
+    margin-left: 10%;
+}
+@media screen and (max-width: 768px) {
+    .about-first-container {
+        height: 80vh;
+        justify-content: center;
+    }
+    .about-first-h1 {
+        font-size: 3rem;
+        width: 100%;
+        text-align: center;
+        margin-top: 20%;
+    }
+    .about-second-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-second-p1, .about-second-p2 {
+        width: 90%;
+        text-align: center;
+    }
+    .about-third-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-third-container-img, .about-third-container-text {
+        width: 90%;
+        margin-left: 0;
+    }
+    
+}
+@media screen and (max-width: 426px) {
+    .about-first-container{
+        width: 100%;
+    }
+    .about-first-h1{
+        font-size: 2rem;
+        margin-top: 20%;
+    }
+    .col{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
