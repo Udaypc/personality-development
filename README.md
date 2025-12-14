@@ -52,7 +52,7 @@ Follow these steps to run the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/personality-development-platform.git
+git clone https://github.com/Udaypc/personality-development.git
 
 # Navigate to project directory
 cd personality-development-platform
